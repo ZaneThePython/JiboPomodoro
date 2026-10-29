@@ -1,6 +1,6 @@
 {
   "name": "@be/pomodoro",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Pomodoro focus timer: 25-minute focus rounds with short and long breaks.",
   "main": "index.js",
   "config": { "standalone": true },
