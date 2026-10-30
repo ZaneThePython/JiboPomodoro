@@ -1,11 +1,11 @@
 {
   "name": "@be/pomodoro",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Pomodoro focus timer: 25-minute focus rounds with short and long breaks.",
   "main": "index.js",
   "config": { "standalone": true },
   "jibo": { "main": "index.html", "type": "asset-pack", "display-name": "pomodoro", "prompt": "Pomodoro" },
   "engines": { "node": ">=6.0" },
   "syncDependencies": ["jibo", "@be/be-framework"],
-  "scripts": { "test": "node tests/timer.test.js" }
+  "scripts": { "test": "node tests/timer.test.js && node tests/close-retry.test.js" }
 }
